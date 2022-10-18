@@ -12,12 +12,17 @@ namespace kklb2
 {
     public partial class Form2 : Form
     {
+        public static Form2 instance;
+ 
         public Form2()
         {
             InitializeComponent();
+           instance = this;
         }
-        int opt; // DYSK
-        int ch1, ch2, ch3; 
+        // do liczenia cen
+        int opt;
+        int ch1, ch2, ch3;
+        
         private void groupBox1_Enter(object sender, EventArgs e)
         {
 
@@ -25,19 +30,18 @@ namespace kklb2
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            if (radioButton1.Checked == true) 
+            if (radioButton1.Checked == true)
             {
-                opt = 22;
+                opt = 200;
                 label1.Text = (opt).ToString();
             }
-           
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             if (radioButton2.Checked == true)
             {
-                opt =32;
+                opt = 300;
                 label1.Text = (opt).ToString();
             }
         }
@@ -46,7 +50,7 @@ namespace kklb2
         {
             if (radioButton3.Checked == true)
             {
-                opt = 2;
+                opt = 400;
                 label1.Text = (opt).ToString();
             }
         }
@@ -58,9 +62,9 @@ namespace kklb2
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked ==true)
+            if (checkBox1.Checked == true)
             {
-                ch1 = 10;
+                ch1 = 100;
                 label1.Text = (opt + ch1).ToString();
             }
             else
@@ -74,7 +78,7 @@ namespace kklb2
         {
             if (checkBox2.Checked == true)
             {
-                ch2 = 40;
+                ch2 = 200;
                 label1.Text = (opt + ch1 + ch2).ToString();
             }
             else
@@ -98,14 +102,20 @@ namespace kklb2
             }
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            //potwierdz
+            Form1.instance.labelpass.Text = (opt + ch1 + ch2 + ch3).ToString();
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

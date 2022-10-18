@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.3.32901.215
+VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kklb2", "kklb2\kklb2.csproj", "{9AFFDEDB-8A2D-4C9F-9D2D-E6A34FBCCF1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kklb2", "kklb2\kklb2.csproj", "{DA2FA415-F204-437D-A931-202E925B7E51}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9AFFDEDB-8A2D-4C9F-9D2D-E6A34FBCCF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9AFFDEDB-8A2D-4C9F-9D2D-E6A34FBCCF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9AFFDEDB-8A2D-4C9F-9D2D-E6A34FBCCF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9AFFDEDB-8A2D-4C9F-9D2D-E6A34FBCCF1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA2FA415-F204-437D-A931-202E925B7E51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA2FA415-F204-437D-A931-202E925B7E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA2FA415-F204-437D-A931-202E925B7E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA2FA415-F204-437D-A931-202E925B7E51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {A9188605-1E8C-4A0A-9EFC-0A92093F630E}
+		SolutionGuid = {C6CD37FF-6684-4643-9EAF-495AD685884D}
 	EndGlobalSection
 EndGlobal
